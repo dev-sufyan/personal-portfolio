@@ -11004,7 +11004,7 @@ p {
 
 .line {
   display: block;
-  width: 25px;
+  width: 45px;
   height: 1.5px;
   background-color: #F85C70;
 }
@@ -11676,9 +11676,29 @@ pre .code {
 
 .contact .contact-title::after {
   content: '';
-  width: 20px;
+  width: 65px;
   height: 2px;
   background: #F85C70;
   display: block;
   margin-top: 10px;
+}
+
+
+.card .card-header.has-icon img {
+  background: #fff;
+  position: absolute;
+  top: -28px;
+  width: 55px;
+  border: 7px solid white;
+}
+
+.card .card-header.has-icon .konmari {
+  width: 115px;
+  border-width: 10px;
+  top: -22px;
+}
+
+.card .card-header.has-icon .phonecheck {
+  width: 150px;
+  top: -29px;
 }
