@@ -11698,7 +11698,17 @@ pre .code {
   top: -22px;
 }
 
+.card .card-header.has-icon .aistudio {
+  width: 110px;
+  top: -22px;
+}
+
 .card .card-header.has-icon .phonecheck {
   width: 150px;
   top: -29px;
+}
+
+.card .card-header.has-icon .contactifai {
+  width: 150px;
+  top: -18px;
 }
