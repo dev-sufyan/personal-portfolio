@@ -11506,8 +11506,9 @@ pre .code {
   position: relative;
   height: 80vh;
   min-height: 600px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
+  background-color: #110e0ee0;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/skills-for-front-end-back-end-developer.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/skills-for-front-end-back-end-developer.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11520,14 +11521,21 @@ pre .code {
   height: 100%;
 }
 
+.header .header-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 13%;
+}
+
 .header .header-content {
-  width: 100%;
+  /* width: 100%;
   position: absolute;
   left: 0;
   top: 55%;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+          transform: translateY(-50%); */
   color: #fff;
 }
 
