@@ -11504,15 +11504,15 @@ pre .code {
 
 .header {
   position: relative;
-  height: 80vh;
+  height: 50vh;
   min-height: 600px;
   background-color: #110e0ee0;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/skills-for-front-end-back-end-developer.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/skills-for-front-end-back-end-developer.jpg);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/banner-3.jpeg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/banner-3.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: inherit;
   color: #fff;
 }
 
@@ -11719,4 +11719,10 @@ pre .code {
 .card .card-header.has-icon .contactifai {
   width: 150px;
   top: -18px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px transparent; 
+  /* border-radius: 10px; */
 }
